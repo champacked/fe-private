@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://excelerate-profile-dev.s3.ap-south-1.amazonaws.com/1681980949109_users.json"
+      "https://jsonplaceholder.typicode.com/users" // Replace with your API endpoint
     )
       .then((response) => response.json())
       .then((data) => setUsers(data))
